@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- navbar -->
+        <div class="navbar">
+            <ul class="nav_links">
+                <li><h1 class="nav_title">Dojonary</h1></li>
+                <li><input class="searchbar" type="text" placeholder="Search..."></li>
+                <li><button class="btns" onclick="Login(this)" >Login</button></li>
+            </ul>
+        </div>
+        <!-- End of navbar -->
+        <div class="container2">
+            <!-- Column1 -->
+            <div class="column1">
+                <!-- First definition card -->
+                <div class="container3">
+                    <div class="left_definitioncard">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btns" onclick="alert('Ninja was liked')" >13 likes</button>
+                    </div>
+                    <p class="definition_text">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+                <!-- End of First definition card -->
+                <!-- Second definition card -->
+                <div class="container4">
+                    <div class="left_definitioncard">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btns" >37 likes</button>
+                    </div>
+                    <p class="definition_text">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+                <!-- End of Second definiton card -->
+            </div>
+            <!-- End of Column1 -->
+            <!-- Column2 -->
+            <div class="column2">
+                <!-- Third card -->
+                <div class="container5">
+                    <div class="definitioncard3">
+                        <p class="paragraph_text">Dojonary is defined by YOU</p>
+                        <button class="add_def_button" onclick="hide(this)" >Add Definition</button>
+                    </div>
+                </div>
+                <!-- End of Third card -->
+            </div>
+            <!-- End of Column2 -->
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>

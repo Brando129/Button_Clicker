@@ -1,0 +1,1 @@
+This is a small project using HTML, CSS, and Javascript to display a section of a webpage and add some functionality to a few buttons. Use of alert, onclick, this, .remove(), and .innerText
